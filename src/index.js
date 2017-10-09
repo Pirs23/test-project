@@ -12,6 +12,7 @@ function component() {
   btn.onclick = printMe;
 
   element.appendChild(btn);
+  element.className = 'hello';
 
   return element;
 }
